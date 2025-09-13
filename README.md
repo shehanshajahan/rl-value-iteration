@@ -7,14 +7,12 @@ To develop a Python program to find the optimal policy for the given MDP using t
 The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges reinforcement learning agents to navigate a slippery terrain to reach a goal state while avoiding hazards. Note that the environment is closed with a fence, so the agent cannot leave the gridworld.
 
 ## VALUE ITERATION ALGORITHM
-```
-Step 1: Set the value of each state to 0 (initial guess).
-Step 2: Look at all the actions you can take from that state (like moving up, down, left, or right).
-Step 3: Calculate the expected value of each action (i.e., how good that action is based on its possible results).
-Step 4: Pick the action that gives the highest value and update the value of the state with that number.
-Step 5: Keep updating the values for all states until the difference between the old and new values is very small.
-Step 6: Once the values have stabilized, go through each state again and pick the action that leads to the highest value. This gives you the optimal action (policy) for each state.
-```
+1. Set the value of each state to 0 (initial guess).
+2. Look at all the actions you can take from that state (like moving up, down, left, or right).
+3. Calculate the expected value of each action (i.e., how good that action is based on its possible results).
+4. Pick the action that gives the highest value and update the value of the state with that number.
+5. Keep updating the values for all states until the difference between the old and new values is very small.
+6. Once the values have stabilized, go through each state again and pick the action that leads to the highest value. This gives you the optimal action (policy) for each state.
 
 ## VALUE ITERATION FUNCTION
 ### Name: Shehan Shajahan
